@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fff1f5">
+<title>Good Morning, Noha ♡</title>
+<style>
+  :root { --rose:#d94f79; --deep:#74344c; --cream:#fffaf7; --pink:#fff0f4; }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; min-height:100vh; display:grid; place-items:center; padding:24px;
+    font-family: Georgia, "Times New Roman", serif; color:var(--deep);
+    background:
+      radial-gradient(circle at 12% 15%, #ffe0e9 0, transparent 28%),
+      radial-gradient(circle at 88% 82%, #ffe8d9 0, transparent 30%),
+      linear-gradient(135deg, #fff9f6, #fff0f5);
+  }
+  .card {
+    position:relative; width:min(100%, 680px); padding:clamp(28px, 6vw, 58px);
+    border:1px solid rgba(217,79,121,.18); border-radius:28px;
+    background:rgba(255,255,255,.82); box-shadow:0 22px 70px rgba(128,54,78,.13);
+    text-align:center; overflow:hidden;
+  }
+  .sparkle { position:absolute; color:#e9a1b5; font-size:22px; animation:float 4s ease-in-out infinite; }
+  .s1 { top:24px; left:26px; } .s2 { top:50px; right:32px; animation-delay:1s; }
+  .s3 { bottom:25px; left:38px; animation-delay:1.8s; }
+  .eyebrow { font:600 11px/1.4 Arial,sans-serif; letter-spacing:.24em; text-transform:uppercase; color:#bd6683; }
+  h1 { margin:16px 0 8px; font-size:clamp(38px, 8vw, 62px); line-height:1.04; font-weight:normal; color:#a63c61; }
+  .nicknames { margin:0 0 26px; color:#bd6683; font-size:17px; font-style:italic; }
+  .divider { display:flex; align-items:center; gap:14px; justify-content:center; margin:24px 0; color:#d77b98; }
+  .divider:before,.divider:after { content:""; height:1px; width:62px; background:#f0c5d2; }
+  .letter { font-size:clamp(17px, 3.3vw, 20px); line-height:1.85; text-align:left; }
+  .letter p { margin:0 0 16px; }
+  .signature { margin-top:28px; font-size:22px; font-style:italic; color:#a63c61; }
+  .heart { display:inline-block; color:var(--rose); animation:beat 1.4s ease-in-out infinite; }
+  .footer { margin-top:30px; font:12px Arial,sans-serif; color:#b37b8d; letter-spacing:.05em; }
+  @keyframes float { 0%,100%{transform:translateY(0) rotate(0)} 50%{transform:translateY(-8px) rotate(8deg)} }
+  @keyframes beat { 0%,100%{transform:scale(1)} 15%{transform:scale(1.18)} 30%{transform:scale(1)} 45%{transform:scale(1.12)} }
+  @media (prefers-reduced-motion: reduce) { *,*::before,*::after { animation:none !important; } }
+</style>
+</head>
+<body>
+  <main class="card">
+    <span class="sparkle s1">✧</span><span class="sparkle s2">♡</span><span class="sparkle s3">✦</span>
+    <div class="eyebrow">a little morning note, just for you</div>
+    <h1>Good morning,<br>Noha</h1>
+    <p class="nicknames">My Baskota · My Tweety ♡</p>
+    <div class="divider">♡</div>
+    <section class="letter" aria-label="Morning letter">
+      <p>Good morning, my beautiful Noha. ☀️</p>
+      <p>I hope you woke up with a peaceful heart and the sweetest smile, because someone is already thinking about you and wishing he could start the morning right beside you.</p>
+      <p>You have this lovely way of making ordinary days feel special just by being you. Even from far away, you make my world warmer, my heart happier, and my mornings worth smiling about.</p>
+      <p>Take care of yourself today, my Baskota. Don’t forget how precious you are, how much you mean to me, and how lucky I feel to have you in my life.</p>
+      <p>Have a beautiful day, my Tweety. If anything gets stressful, remember that there’s someone cheering for you, believing in you, and sending you the biggest hug and a thousand kisses. 💗</p>
+      <p>I wish I could kiss your forehead, hold you close, and whisper “good morning” to you in person. Until I can, let this little letter do it for me.</p>
+    </section>
+    <div class="signature">All my love, always <span class="heart">♥</span></div>
+    <div class="footer">MADE WITH LOVE, ONLY FOR NOHA</div>
+  </main>
+</body>
+</html>
